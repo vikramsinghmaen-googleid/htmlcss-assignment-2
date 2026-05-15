@@ -8,6 +8,7 @@ html, body{
     height: 180vh;
     width: 100%;
     font-family: 'Poppins', sans-serif;
+    background-color: #fcf6ef;
 }
 
 
@@ -20,6 +21,7 @@ html, body{
     margin: auto;
     /* border: #e75918 solid 3px; */
     box-shadow:0 4px 20px rgba(0,0,0,0.1);
+    
 }
 
 #nav{
@@ -30,7 +32,7 @@ html, body{
     align-items: center;
     /* justify-content: space-between; */
     /* padding: 0 2rem; */
-    margin-top: 28px; /* margin-bottom: 28px;  comment this after page done NOTE*/
+    /* margin-top: 28px; margin-bottom: 28px;  comment this after page done NOTE */
     box-shadow:  0 1px 0 #e5e5e5;
 }
 
@@ -104,8 +106,8 @@ html, body{
 
 
 #hero-section{
-    border: 3px solid pink;
-    height: 65%;
+    /* border: 3px solid pink; */
+    height: 60%;
     width: 100%;
     display: flex;
     align-items: center;
@@ -115,7 +117,7 @@ html, body{
 }
 
 #left-content{
-    border: 3px solid cyan;
+    /* border: 3px solid cyan; */
     height: 100%;
     width: 20%;
     display: flex;
@@ -226,7 +228,7 @@ details{
   
   padding:10px;
   width:100%;
-  background:#f5f5f5;
+  /* background:#f5f5f5; */
   padding:15px;
   
 
@@ -267,13 +269,405 @@ summary{
 
 /* ---------------Middle content-------------------- */
 #middle-content{
-    border: 3px solid cyan;
+    /* border: 3px solid cyan; */
     height: 100%;
     width: 50%;
+    /* margin-right: 10px; */
 }
 
+#middle-content img{
+    width: 100%;
+    height: auto;
+   
+    
+}
+
+#hero-mc-mini-features{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 70px;
+    gap: 10px;
+    
+    width: 70%;
+    margin: auto;
+}
+
+#hero-mc-mini-feature{
+    display: flex;
+    align-items: center;
+    
+    gap: 5px;
+    padding: 10px 0px;
+    color: #4b4b4b;
+    text-transform: uppercase;
+}
+
+/* -----------------right content-------------------- */ 
 #right-content{
-    border: 3px solid cyan;
+    /* border: 3px solid cyan; */
     height: 100%;
     width: 20%;
 }
+
+#hero-rc-size{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 70px;
+    flex-direction: column;
+}
+
+#hero-rc-size-heading{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1a1a1a;
+}
+
+#hero-rc-size-options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.hero-rc-size-option{
+    height: 50px;
+    width: 50px;
+    border-radius: 20%;
+    background-color: #f4ece5;
+    color: rgb(29, 29, 29);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.hero-rc-size-option:nth-child(2){
+    background-color: #e75918;
+    color: white;
+}
+
+#hero-rc-size-guide{
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #e75918;
+    margin-top: 14px;
+    /* margin-bottom: 24px; */
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    
+}
+#hero-rc-size-guide a{
+    text-decoration: none;
+    color: black;
+}
+
+#hero-rc-size-guide i{
+    font-size: 18px;
+    color: #e75918;
+    margin-left: 6px;
+}
+
+#hero-rc-divider{
+    height: 2px;
+    width: 80%;
+    background-color: #d1d1d1;
+    margin: 20px auto;
+}
+
+
+#hero-rc-color{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+#hero-rc-color-options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+
+.hero-rc-color-option{
+    height: 160px;
+    width: 120px;
+    border-radius: 10%;
+    /* background-color: #f4ece5; */
+    color: rgb(29, 29, 29);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    
+    /* border: #e75918 solid 2px; */
+}
+
+
+#color-option-baige img{
+    border: #e75918 solid 2px;
+}
+
+
+
+.hero-rc-color-option img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+    /* border: #e75918 solid 2px; */
+    object-fit: cover;
+    background-color: #ebe3dc;
+    margin-top: 10px;
+}
+
+.hero-rc-color-option span{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #1a1a1a;
+}
+
+#hero-rc-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    flex-direction: column;
+    /* border: #e75918 solid 2px; */
+}
+
+#hero-rc-btn-addtowishlist{
+    height: 40px;
+    width: 250px;
+    /* background-color: #e75918; */
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: #e6e2d2 solid 2px;
+}
+
+#hero-rc-btn-addtowishlist i{
+    font-size: 18px;
+}
+
+#hero-rc-btn-buy{
+    height: 50px;
+    width: 250px;
+    background-color: #e75918;
+    color: white;
+    
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+}
+
+#hero-rc-btn-buy i{
+    font-size: 22px;
+}
+
+#hero-rc-btn-buy h3{
+    font-size: 20px;
+    font-weight: 300;
+    ;
+}
+
+/* -------------bottom content--------------------- */
+
+#bottom-content{
+    /* border: 3px solid cyan; */
+    height: 15%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     gap: 20px;
+     margin-top: 10px;
+    background-color: #f7efe9;
+    border-radius: 20px;
+    padding: 10px;
+    border: #e6e2d2 solid 2px;
+}
+
+.bc-card{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    /* justify-content: center; */
+    gap: 20px;
+    padding: 10px;
+   
+    
+    /* border: #e75918 solid 2px; */
+
+}
+
+#bc-card-image{
+    height: 100%;
+    width: 100%;
+    
+    /* border: #4b4b4b solid 1px; */
+    
+}
+
+#bc-card-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8%;
+}
+
+#bc-card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    /* border: #e75918 solid 2px; */
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+}
+
+#bc-card-content-heading{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1a1a1a;
+}
+#bc-card-content-description{
+    font-size: 14px;
+    font-weight: 500;
+    color: #4b4b4b;
+}
+
+/* ---------------------footer----------------------- */
+
+#footer{
+    /* border: 3px solid cyan; */
+    height: 10%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    
+    border-radius: 20px;
+     background-color: #f7efe9;
+        border: #e6e2d2 solid 2px;
+}
+
+.footer-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    padding: 10px;
+    /* border: #e75918 solid 2px; */
+    width: 25%;
+     height: 80%;
+     border-radius: 10px;
+}
+
+.footer-card-icon{
+    height: 100%;
+    width: 30%;
+    /* border: #30e718 solid 2px; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.footer-card-icon img{
+    height: 100%;
+    width: 50%;
+    object-fit: contain;
+    /* border: #e75918 solid 2px; */
+}
+
+.footer-card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+    /* border: #e75918 solid 2px; */
+    height: 100%;
+    width: 60%;
+    padding: 5px;
+}
+
+#footer-card-heading{
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #1a1a1a;
+}
+
+#footer-card-description{
+    font-size: 14px;
+    font-weight: 400;
+    color: #4b4b4b;
+}
+
+.footer-divider{
+    height: 60%;
+    width: 2px;
+    background-color: #e6e2d2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
